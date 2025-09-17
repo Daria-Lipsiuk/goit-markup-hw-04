@@ -177,7 +177,7 @@ font-family: "Raleway",
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
         ),
-     url("/images/people-office.jpg");
+     url("../images/people-office.jpg");
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -583,7 +583,7 @@ fill: #f4f4fd;
     background-color: #4d5ae5;
     transition-duration: 250ms;
     margin-top: 16px;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links .link:hover,
@@ -605,9 +605,7 @@ fill: #f4f4fd;
     width: 40px;
     height: 40px;
 }
-.link {
-background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .footer-links .icon {
     fill: #f4f4fd;
     transition: fill 250ms ease;
