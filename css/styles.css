@@ -404,6 +404,9 @@ box-sizing: border-box;
     width: 40px;
     height: 40px;
 }
+.link {
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .icon-link .icon {
 fill: #f4f4fd;
 }
@@ -414,9 +417,6 @@ fill: #f4f4fd;
     box-sizing: border-box;
 }
 
-.media-icon {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
   /* section 4 */
